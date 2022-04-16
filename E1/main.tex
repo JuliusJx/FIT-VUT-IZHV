@@ -1,0 +1,66 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Author : [Name] [Surname], Tomas Polasek (template)
+% Description : First exercise in the Introduction to Game Development course.
+%   It deals with an analysis of a selected title from the point of its genre, 
+%   style, and mechanics.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper,10pt,slovak]{article}
+
+\usepackage[left=2.50cm,right=2.50cm,top=1.50cm,bottom=2.50cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, urlcolor=blue}
+
+\newcommand{\ph}[1]{\textit{[#1]}}
+
+\title{%
+Analýza herných mechaník%
+}
+\author{%
+Jakub Július Šmýkal (xsmyka01)%
+}
+\date{}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+{%
+\large
+
+\begin{itemize}
+
+\item[] \textbf{Titul:} art of rally
+
+\item[] \textbf{Dátum vydania:} 23.09.2020
+
+\item[] \textbf{Autor:} Funselektor Labs Inc.
+
+\item[] \textbf{Hlavný žáner:} Závodná hra
+
+\item[] \textbf{Vedľajší žáner:} Kompetetívna hra
+
+\item[] \textbf{Štýl:} Cartoon
+
+\end{itemize}
+
+}
+
+\section*{\centering Analýza}
+
+\subsection*{Základná hrateľnosť}
+
+Art of rally je závodná hra so zjednodušenou štylizovanou grafikou. Hlavnou témou tejto hry sú preteky rally, kde hráč jazdí po uzavertých tratiach na autách špeciálne upravených pre takýto typ závodov. Autá su rozdelené do viacerých tried podľa ich parametrov. Pri každom závode sa hráčovi počíta čas, za ktorý trať dokončil. Kompetetívnym elementom tejto hry sú tabuľky najlepších časov, kde si každý hráč môže pozrieť svoje umiestnenie na danej trati a pre danú triedu vozidiel. Hráč si môže stiahnuť záznamy najlepších časov iných hráčov, ktoré bude potom vidieť pri hraní a takýmto spôsobom sa môže snažiť zlepšiť svoje pretekárske schopnosti a dosiahnuť čo najlepší čas. Okrem tohto sa v hre konajú aj pravidelné denné a týždnové disciplíny, kde má hrač iba jeden pokus aby dosiahol čo najlepší čas v závode a umiestnil sa v tabuľke. V hre sa nachádza niekoľko máp, každá reprezentuje inú krajinu kde sa v minulosti konali preteky rally, ako napríklad Fínsko, Nemecko, Kenya. Na každej z tejto máp sa nachádza viacero tratí, po ktorých môže hráč pretekať. Hráč má možnosť aj volne jazdiť po celých mapách bez obmedzení, kde má možnosť zbierať rôzne zberatelšké predmety, ktoré mu odomknú bonusový obsah hry.
+
+\subsection*{Kampaň a postup}
+
+V hre sa nachádza aj krátka kampaň pre jedného hráča, ktorá je rozdelená do tried podľa vozidiel, ktoré v daných šampionátoch môže hráč použiť. Hráč musí postupne prechádzať cez všetky triedy a odomyká si tak autá, ktoré boli zo začiatku hry hráčovi neprístupné. Okrem toho je môžné si pre určité autá odomknúť aj špecíalne polepy, ktoré hráč získa ak splní pri úspešnom dokončení šampionátu aj bonusovú podmienku. Každý šampionát sa skladá s predom daného počtu pretekov, avšak zoznam tratí nie je pevno daný a pri spustený šampionátu sa vždy náhodne generuje.
+
+\subsection*{Poškodenie vozidiel}
+
+V hre sa nachádza aj systém poškodenia vozidiel. V prípade, že hráč narazí do prekážky tak sa mu podľa vážnosti nárazu a obtiažnosti, ktorú má hráč nastavenú, môže poškodiť vozidlo. Každé vozidlo sa skladá z viacerých komponentov a poškodenie každého komponentu ovplyvnuje vozidlo iným spôsobom. Poškodenie zhoršuje jadzné vlastnosti vozidla a tým znevýhodňuje hráča a zabraňuje mu dokončiť závod v dobrom čase. Pri šampionátoch nie je môžné vozidlo opraviť po každom závode, ale iba po niektorých konkrétnych pretekoch. Aj keď má hráč môžnosť opraviť vozidlo, má iba obmedezný počet bodov, ktoré môže rozdeliť na opravu komponentov vozidla. Následkom toho sa môže stať, že je hráč niekedy nútený účastniť sa ďalších pretekov aj s poškodeným vozidlom.
+
+\end{document}
